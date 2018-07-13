@@ -20,14 +20,15 @@
       <h1>About me</h1>
           <p>Hi!
               My name is Karol Perechowski.
-              I'm 
           </p>
-          <p>I'm </p>
+          <p>I'm a programmer interested in web development.</p>
+            <p>if you want to read more about me please navigate to details page! </p>
+            <p>You also can navigate to my Linkedin or Github profile.</p>
     </div>
     <div id="right">
         <ul>
             <li >
-                <a href="https://google.com">
+                <a routerLink="/details" routerLinkActive="active">
                     <img src="assets/images/29027466_795049624022992_1323581811070074880_n.jpg" >
                 </a>
                 <a href="https://google.com">
@@ -36,6 +37,7 @@
                     <p>My main technologies, experience and contact information. </p>
                   </span>
                 </a>
+                <router-outlet></router-outlet>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/karol-perechowski-30b6b2ba">
